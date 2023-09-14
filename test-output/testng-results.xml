@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-29T04:15:25Z" name="Default suite" finished-at="2022-04-29T04:16:05Z" duration-ms="39990">
+    <groups>
+    </groups>
+    <test started-at="2022-04-29T04:15:25Z" name="Default test" finished-at="2022-04-29T04:16:05Z" duration-ms="39990">
+      <class name="com.kdd.runner.TestExecutor">
+        <test-method is-config="true" signature="configurations(org.testng.ITestContext)[pri:0, instance:com.kdd.runner.TestExecutor@1fb669c3]" started-at="2022-04-29T04:15:24Z" name="configurations" finished-at="2022-04-29T04:15:25Z" duration-ms="1045" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@64a1923a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configurations -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.kdd.runner.TestExecutor@1fb669c3]" started-at="2022-04-29T04:15:25Z" name="initialization" finished-at="2022-04-29T04:15:44Z" duration-ms="18727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.kdd.runner.TestExecutor@1fb669c3]" started-at="2022-04-29T04:15:25Z" name="initialization" finished-at="2022-04-29T04:15:40Z" duration-ms="14062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="testCasesExecutor(int, java.lang.String)[pri:0, instance:com.kdd.runner.TestExecutor@1fb669c3]" started-at="2022-04-29T04:15:40Z" name="testCasesExecutor" data-provider="testCasesList" finished-at="2022-04-29T04:16:05Z" duration-ms="25423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TC002_signup_Selenium_account]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCasesExecutor -->
+        <test-method signature="testCasesExecutor(int, java.lang.String)[pri:0, instance:com.kdd.runner.TestExecutor@1fb669c3]" started-at="2022-04-29T04:15:44Z" name="testCasesExecutor" data-provider="testCasesList" finished-at="2022-04-29T04:15:45Z" duration-ms="324" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TC001_Verify_techlistic_page]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCasesExecutor -->
+        <test-method is-config="true" signature="updateStatus(org.testng.ITestResult)[pri:0, instance:com.kdd.runner.TestExecutor@1fb669c3]" started-at="2022-04-29T04:15:45Z" name="updateStatus" finished-at="2022-04-29T04:15:47Z" duration-ms="2221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCasesExecutor status=SUCCESS method=TestExecutor.testCasesExecutor(int, java.lang.String)[pri:0, instance:com.kdd.runner.TestExecutor@1fb669c3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateStatus -->
+        <test-method is-config="true" signature="updateStatus(org.testng.ITestResult)[pri:0, instance:com.kdd.runner.TestExecutor@1fb669c3]" started-at="2022-04-29T04:16:05Z" name="updateStatus" finished-at="2022-04-29T04:16:05Z" duration-ms="460" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCasesExecutor status=SUCCESS method=TestExecutor.testCasesExecutor(int, java.lang.String)[pri:0, instance:com.kdd.runner.TestExecutor@1fb669c3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateStatus -->
+        <test-method is-config="true" signature="SendTestEmail()[pri:0, instance:com.kdd.runner.TestExecutor@1fb669c3]" started-at="2022-04-29T04:16:05Z" name="SendTestEmail" finished-at="2022-04-29T04:16:05Z" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendTestEmail -->
+      </class> <!-- com.kdd.runner.TestExecutor -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
